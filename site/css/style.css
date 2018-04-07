@@ -13,26 +13,30 @@ body {
 header {
 	min-height: 100px;
 	width: 100%;
-	background-color: pink;
+	background-color: #ffce77;
 	position: fixed;
+
 }
 
 
 #context {
-	background-color: #fff;
+	background-color: #f7f7f4;
 	min-height: 200px;
 	width: 80%;
 	margin: 0;
 	padding: 0;
 	float: right;
 	margin-top: 100px;
-}
 
+}
+#banner {
+	width: 95%;
+}
 
 #left-sidebar {
 	float: left;
 	width: 20%;
-	background-color: green;
+	background-color: #7acbf5;
 	margin: 0;
 	padding: 0;
 	position: fixed;
@@ -47,6 +51,9 @@ footer {
 	background-color: #383434;
 }
 
+#logo {
+	position: fixed;	
+}
 #login {
 	position: relative;
 }
@@ -69,23 +76,23 @@ footer {
 #login>input:nth-child(3) {
 	right: 100px;
 	top: 50px;
-	width: 176px;
+	width: 165px;
 	height: 25px;
-	background-color: blue;
+	background-color: #6ab3d9;
 	border: none;
 	color: #fff;
 	transition: all .3s ease-out;
 }
 
 #login>input:nth-child(3):hover {
-	background-color: gray;
+	background-color: #fe665a;
 	cursor: pointer;
 }
 
 #login>a {
 	position: absolute;
     top: 43px;
-    right: 407px;
+    right: 395px;
     font-size: 0.8em;
     text-decoration: none;
 	color: black;
@@ -110,6 +117,7 @@ footer {
 	color: black;
 	border: 1px solid gray;
 	border-radius: 5px;
+	background-color: #fe665a;
 }
 
 #card>img {
@@ -132,7 +140,7 @@ footer {
 #menu li a {
 	text-decoration: none;
 	color: #333;
-	transition: all .3s ease-out;
+	
 	width: 100%;
 	display: block;
 	padding: 10px 0;
@@ -145,7 +153,7 @@ footer {
 #film {
 	padding: 30px;
 	height: 220px;
-	background-color: blue;
+	background-color: #f7f7f4;
 	font-size: 14px;
 
 }
@@ -160,7 +168,11 @@ footer {
 #film_descr {
 }
 #description {
-
+	padding-top: 30px;
+	padding-bottom: 110px;
+	padding-right: 50px;
+	font-size: 20px;
+	text-align: center;
 }
 #reg_form {
 	width: 300px;
